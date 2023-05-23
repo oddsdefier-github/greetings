@@ -5,17 +5,20 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Rogene</title>
-		<link rel="stylesheet" href="css/output.css" />
+		<link rel="stylesheet" href="dist/output.css" />
         <script src="./js/confetti.js" defer></script>
         <script src="./js/main.js" defer></script>
 	</head>
 	<body class="w-screen h-screen flex flex-col justify-center items-center overflow-hidden">
-		<div class="img-card">
+		<div class="img-card flex flex-col justify-center items-center">
 			<div>
-				<p>hBd xd,,mbtc</p>
+				<p class="font-bold text-lg">hBd xd,,mbtc</p>
 			</div>
 			<div class="w-[20rem]" id="img">
 				<img src="./img/caught_on_cam.jpg" alt="caught_on_cam" />
+			</div>
+			<div>
+				<p id="party-popper" class="text-xl mt-3 cursor-pointer">🎉</p>
 			</div>
 		</div>
         <canvas id="canvas"></canvas>
